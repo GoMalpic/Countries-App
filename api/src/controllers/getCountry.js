@@ -27,7 +27,7 @@ const getCountriesByName = async (name) => {
 const getCountries = async (req, res) => {
   let { name } = req.query;
   if (name) return res.json(await getCountriesByName(name));
-  const check = await Country.findOne({ where: { id: "PER" } });
+  const check = await Country.findOne({ where: { id: "COL" } });
   if (check === null) {
     let apiCountries = await axios.get("https://restcountries.com/v3/all");
     let countries = apiCountries.data.map((element) => {

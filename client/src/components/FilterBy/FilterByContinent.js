@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { filterByContinent } from "../../redux/actions";
 
 const FilterByContinent = () => {
