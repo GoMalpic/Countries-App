@@ -1,0 +1,48 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  background: #040930;
+}
+
+.text {
+  color: transparent;
+  -webkit-text-stroke: 1.5px white;
+  text-decoration: none !important;
+  margin-left: 2rem;
+  font-size: 25px;
+}
+.text:hover {
+  -webkit-text-stroke: 1.5px rgb(251, 255, 1);
+  transition-delay: 0.2s;
+}
+
+.textlink {
+  text-decoration: none;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 6px 14px;
+  margin: 4rem;
+}
+.textlink:hover {
+  -webkit-text-stroke: 1.5px rgb(251, 255, 0);
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .text {
+    font-size: 20px;
+  }
+  .textlink {
+    font-size: 20px;
+    padding: 0;
+    margin: 1.5rem;
+  }
+}

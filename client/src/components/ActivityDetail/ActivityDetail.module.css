@@ -1,0 +1,38 @@
+.container {
+  width: 80%;
+  background-color: rgba(4, 63, 88, 0.911);
+  border-radius: 2rem;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 7px 3px 10px rgba(47, 79, 79, 0.61);
+  margin-top: 2rem;
+}
+
+.deleteBtn {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.5px;
+  cursor: pointer;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.name {
+  align-content: center;
+}
+
+.activitySubtitle {
+  color: rgb(242, 255, 0);
+}
+
+.data {
+  color: antiquewhite;
+}

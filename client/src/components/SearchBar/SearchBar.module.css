@@ -1,0 +1,35 @@
+.search_div {
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 5%;
+}
+
+.search_text {
+  width: 100%;
+  border: 2px solid #000000;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+}
+
+.searchButton {
+  width: 45px;
+  height: 35px;
+  border: 1px solid #646000;
+  background: #ffcc00;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .search_div {
+    margin-left: 0;
+  }
+}

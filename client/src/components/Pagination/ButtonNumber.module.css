@@ -1,0 +1,71 @@
+.container {
+  margin-left: 36%;
+}
+
+.pageNumbers {
+  display: flex;
+  width: 600px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.pageNumbers li {
+  background: #616161ca;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  color: aliceblue;
+  max-width: auto;
+  min-width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+  height: 35px;
+  border-radius: 100%;
+}
+.pageNumbers li:hover {
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  background: #010101;
+  color: #ffffff;
+  width: 30px;
+  padding-top: 6px;
+  align-items: center;
+  text-align: center;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin-left: 34%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin-left: 29%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin-left: 27%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-left: 22%;
+  }
+}

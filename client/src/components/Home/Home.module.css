@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  top: 0;
+  background-image: url("https://images.ecestaticos.com/gX65a8RCnHIW0FN7tUQaB_YgeKs=/1x67:1253x769/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fcd1%2F58c%2F368%2Fcd158c368dc7be563cef8eb4bd65071b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.countries_Page_Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "searchBar searchBar searchBar searchBar "
+    "filters filters filters filters"
+    "pagination pagination pagination pagination";
+  justify-items: center;
+  align-items: center;
+}
+
+.pagination {
+  grid-area: pagination;
+}
+
+.filters {
+  grid-area: filters;
+}
+
+.searchBar {
+  grid-area: searchBar;
+}
